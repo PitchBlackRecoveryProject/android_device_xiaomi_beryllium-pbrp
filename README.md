@@ -1,4 +1,4 @@
-# android_device_xiaomi_polaris
+# android_device_xiaomi_beryllium
 For building TWRP for Xiaomi PocoPhone F1
 
 ## Features
