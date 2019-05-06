@@ -94,7 +94,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
 # TWRP specific build flags
-TW_THEME := portrait_hdpi_notch
+TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
@@ -102,8 +102,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 4095
 TW_DEFAULT_BRIGHTNESS := 1500
-#TW_Y_OFFSET := 80
-#TW_H_OFFSET := -80
+TW_Y_OFFSET := 80
+TW_H_OFFSET := -80
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 TW_EXTRA_LANGUAGES := true
