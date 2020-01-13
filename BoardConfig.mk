@@ -131,4 +131,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 
 # Official
-PB_OFFICIAL := true
+#PB_OFFICIAL := true
+
+TEST_BUILD := true
