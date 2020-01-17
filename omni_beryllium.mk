@@ -35,3 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=beryllium \
     BUILD_PRODUCT=beryllium \
     PRODUCT_NAME=beryllium
+
+# Blacklist Properties
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.build.date \
+    ro.build.date.utc
