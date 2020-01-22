@@ -32,7 +32,6 @@ on fs
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion
     chown system system /dev/ion
-    export ANDROID_ROOT /system_root
     install_keyring
 
 on init
