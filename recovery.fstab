@@ -10,9 +10,10 @@
 
 /data          ext4   /dev/block/bootdevice/by-name/userdata                     flags=encryptable=footer;length=-16384;fileencryption=ice:aes-256-cts:aes-256-heh
 /firmware      vfat   /dev/block/bootdevice/by-name/modem                        flags=display="Firmware";mounttodecrypt
-/cust          ext4   /dev/block/bootdevice/by-name/cust                         flags=display="Cust"
+/cust          ext4   /dev/block/bootdevice/by-name/cust                         flags=display="Cust";backup=1;wipeingui
+/cust          ext4   /dev/block/bootdevice/by-name/cust                         flags=display="Cust Image";backup=0;flashimg=1
 /misc          emmc   /dev/block/bootdevice/by-name/misc
-/splash        emmc    /dev/block/bootdevice/by-name/splash               flags=display="Boot Logo";backup=1;flashimg=1
+/splash        emmc    /dev/block/bootdevice/by-name/splash                      flags=display="Boot Logo";backup=1;flashimg=1
 
 /modem         emmc   /dev/block/bootdevice/by-name/modem                        flags=backup=1;display="Modem"
 /bluetooth     emmc   /dev/block/bootdevice/by-name/bluetooth                    flags=backup=1;subpartitionof=/modem
@@ -22,7 +23,7 @@
 /efsc          emmc   /dev/block/bootdevice/by-name/fsc                          flags=backup=1;subpartitionof=/efs1
 /efsg          emmc   /dev/block/bootdevice/by-name/fsg                          flags=backup=1;subpartitionof=/efs1
 /persist       ext4   /dev/block/bootdevice/by-name/persist                      flags=display="Persist";backup=1
-/persist_image emmc    /dev/block/bootdevice/by-name/persist                     flags=display="Persist Image";flashimg=1
+/persist_image emmc    /dev/block/bootdevice/by-name/persist                     flags=display="Persist Image";backup=1;flashimg=1
 
 # Removable storage
 /sdcard1    auto    /dev/block/mmcblk0p1        flags=display="MicroSD";storage;wipeingui;removable
