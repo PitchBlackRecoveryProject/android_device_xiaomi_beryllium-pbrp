@@ -14,6 +14,10 @@ jobs:
       BUILD_LUNCH: 'omni_beryllium-eng'
       TEST_BUILD: 'true'
       PB_OFFICIAL: 'true'
+      CHANGELOG: " - Last source TeamWin 3.4.0\n
+	- Improve touch\n
+	- Miscellaneous"
+
       # EXTRA_CMD: # some required commands like `ls` after `repo sync`, write in single line
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
