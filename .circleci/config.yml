@@ -8,6 +8,7 @@ jobs:
       MANIFEST_BRANCH: 'android-9.0'
       # PBRP_BRANCH: 'devs'
       VERSION: '2.9.1'
+      MAINTAINER: '@Reza_Adi_Pangestu && @frdsvins'
       VENDOR: 'xiaomi'
       CODENAME: 'beryllium'
       BUILD_LUNCH: 'omni_beryllium-eng'
