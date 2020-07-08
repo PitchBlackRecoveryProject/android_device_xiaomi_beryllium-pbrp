@@ -13,7 +13,7 @@ jobs:
       CODENAME: 'beryllium'
       BUILD_LUNCH: 'omni_beryllium-eng'
       TEST_BUILD: 'true'
-      PB_OFFICIAL: 'true'
+      # PB_OFFICIAL: 'true'
       CHANGELOG: " - Last source TeamWin 3.4.0\n
 	- Improve touch\n
 	- Miscellaneous"
