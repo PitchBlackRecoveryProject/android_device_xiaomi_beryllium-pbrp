@@ -7,17 +7,21 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       # PBRP_BRANCH: 'devs'
-      VERSION: '2.9.1'
-      MAINTAINER: '@Reza_Adi_Pangestu && @frdsvins'
+      VERSION: '3.0.0'
+      MAINTAINER: '@Reza_Adi_Pangestu'
       VENDOR: 'xiaomi'
       CODENAME: 'beryllium'
       BUILD_LUNCH: 'omni_beryllium-eng'
       TEST_BUILD: 'true'
-      PB_OFFICIAL: 'true'
-      CHANGELOG: " - Last source TeamWin 3.4.0\n
-	- Improve touch\n
-	- Miscellaneous"
-
+      # PB_OFFICIAL: 'true'
+      CHANGELOG: |
+        - Bringup 3.0 
+        - Source side changes 
+        - Fully Redesigned UI 
+        - New Android like Power Menu (Activated via power key hold) 
+        - Flashlight toggled by Vol up(+) on hold 
+        - Flashlight toggle on Lockscreen 
+        - Etc.
       # EXTRA_CMD: # some required commands like `ls` after `repo sync`, write in single line
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
