@@ -15,13 +15,8 @@ jobs:
       TEST_BUILD: 'true'
       # PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Bringup 3.0 
-        - Source side changes 
-        - Fully Redesigned UI 
-        - New Android like Power Menu (Activated via power key hold) 
-        - Flashlight toggled by Vol up(+) on hold 
-        - Flashlight toggle on Lockscreen 
-        - Etc.
+        - Many changes
+        - Disable SAR by default
       # EXTRA_CMD: # some required commands like `ls` after `repo sync`, write in single line
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
