@@ -12,9 +12,10 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'beryllium'
       BUILD_LUNCH: 'omni_beryllium-eng'
-      TEST_BUILD: 'true'
-      # PB_OFFICIAL: 'true'
+      #TEST_BUILD: 'true'
+      PB_OFFICIAL: 'true'
       CHANGELOG: |
+        - New Updates
         - Many changes
         - Disable SAR by default
       # EXTRA_CMD: # some required commands like `ls` after `repo sync`, write in single line
